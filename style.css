@@ -1,0 +1,48 @@
+#outside_box{
+    width:400px;
+    height:400px;
+    background-color:#1a303a;
+    position: absolute;
+    left:35%;
+    top:20%;
+    
+}
+#inside_box{
+    width:350px;
+    height:350px;
+    background-color:#b93b3b;
+    position: absolute;
+    left:7%;
+    top:7%;
+    text-align: center;
+}
+#body{
+    
+    background-image: linear-gradient(45deg, #622e2e, transparent);
+}
+#time{
+    height: 200px;
+    background-color: azure;
+    width:100%;
+    font-size: 39px;
+    line-height: 200px;
+
+}
+#date{
+    height: 90px;
+    background-color:  rgb(219 237 239);
+    width:100%;
+    font-size: 20px;
+    line-height: 90px;
+
+}
+#set_time,#date{
+    margin:0px;
+}
+#set_time{
+    padding-top: 10px;
+}
+input[type="color" i] {
+    border:0px;
+    background-color: black;
+}
